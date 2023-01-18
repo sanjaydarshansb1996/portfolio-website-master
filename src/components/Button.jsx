@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
-const Button = styled.button`
+export const Button = styled.button`
   box-sizing: border-box;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   text-align: center;
   padding: 1rem 2rem;
   color: ${(props) =>
