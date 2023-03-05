@@ -3,6 +3,17 @@ import { HeroIllustration } from "../../assets";
 import { Button } from "../../components";
 
 function HeroSection() {
+
+  function handleDownloadPDF() {
+    const url = '/sanjaydarshansb_cv_React_Dev.pdf';
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'sanjaydarshansb_cv_React_Dev.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+  }
   return (
     <StyledHeroSection>
       <div className="content-block">
@@ -10,7 +21,7 @@ function HeroSection() {
           Helping people make the world a better place through quality software.
         </span>
         <div className="btn-group">
-          <Button variant="primary">Download Resume</Button>
+          <Button variant="primary" onClick={handleDownloadPDF}>Download Resume</Button>
           <Button variant="secondary">Contact Me</Button>
         </div>
       </div>

@@ -18,6 +18,7 @@ import {
   MongoDBLogo,
   PythonLogo,
   VsCodeLogo,
+  JavaLogo,
 } from "../../assets/";
 
 function SkillsOrbit() {
@@ -53,7 +54,7 @@ function SkillsOrbit() {
               </li>
               <li>
                 <i className="orbit-icon">
-                  <PythonLogo className="icon" />
+                  <JavaLogo className="icon" />
                 </i>
               </li>
             </ul>
@@ -70,16 +71,16 @@ function SkillsOrbit() {
                   <AdobeXDLogo className="icon" />
                 </i>
               </li>
-              <li>
+              {/* <li>
                 <i className="orbit-icon">
                   <AdobeIllustratorLogo className="icon" />
                 </i>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <i className="orbit-icon">
                   <AdobePhotoshopLogo className="icon" />
                 </i>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li>

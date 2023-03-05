@@ -7,30 +7,113 @@ export const TimelineSection = () => {
       <span className="title">Professional Carrier Timeline</span>
       <Timeline>
         <Event
-          interval={"2020 - Present"}
+          interval={"June 2020 - Present"}
           title={"Software Engineer"}
-          subtitle={"Ecs Fin Inc."}
+          subtitle={"Products and Innovations Team - Ecs Fin Inc."}
         >
-          A fried Jamaica Red Ale trades baseball cards with a coors light.
-          Furthermore, a Busch returns home, and the Jamaica Red Ale steals
-          women from the radioactive Guiness. The slow tornado brew wastedly
-          assimilates a Guiness around an Octoberfest. Now and then, a miserly
-          Wolverine Beer caricatures a crazy Stella Artois. A change near a Sam
-          Adams gives lectures on morality to a satellite brewery defined by
-          some bottle.
+          <h4 style={{ fontWeight: "700" }}>
+            Enterprise Integrator Application
+          </h4>
+          <p>
+            Enterprise Integrator visualizes messages from various sources
+            systems in different formats such as tables, graphs and all.
+          </p>
+          <ul>
+            <li>
+              Built an UI using ReactJS for visualizing transactions involved in
+              banking.
+            </li>
+            <br></br>
+            <li>
+              <h5 style={{ fontWeight: "600" }}>Tech stack </h5> ReactJS, Ant
+              Design, Styled-Components, Redux Toolkit, React Flow, Keycloak,
+              React Query
+            </li>
+          </ul>
+          <br></br>
+          <h4 style={{ fontWeight: "700" }}>IMS - Hub Application</h4>
+          <p>
+            IMS Hub visualizes suite of different products specific to a
+            financial institution.
+          </p>
+          <ul>
+            <li>
+              Built an UI using ReactJS for detailed showcase of IMS products
+              specific to a financial institution.
+            </li>
+            <br></br>
+            <li>
+              <h5 style={{ fontWeight: "600" }}>Tech stack </h5> ReactJS,
+              Keycloak, React Query
+            </li>
+          </ul>
+          <br></br>
+          <h4 style={{ fontWeight: "700" }}>
+            Enterprise Integrator API Server
+          </h4>
+          <p>
+            Handles the API calls to the different spring boot micro services.
+          </p>
+          <ul>
+            <li>
+              Built multiple routes using Express.js for fetching response to
+              the GUI application.
+            </li>
+            <br></br>
+            <li>
+              <h5 style={{ fontWeight: "600" }}>Tech stack </h5>
+              NodeJS, Express.js, Axios
+            </li>
+          </ul>
+          <br></br>
+          <h4 style={{ fontWeight: "700" }}>Realtime Payment Processing</h4>
+          <p>
+            RPP visualizes the real time payment messages sent from IMS to the
+            financial institution.
+          </p>
+          <ul>
+            <li>
+              Authentication and authorization implemented in the server side.
+            </li>
+            <br></br>
+
+            <li>
+              Built an UI using ReactJS for visualizing real time payments.
+            </li>
+
+            <br></br>
+            <li>
+              <h5 style={{ fontWeight: "600" }}>Tech stack </h5>
+              ReactJS, Ant Design, NodeJS, Express.js, Axios{" "}
+            </li>
+          </ul>
+          <br></br>
+          <h4 style={{ fontWeight: "700" }}>Cash Position Application</h4>
+          <p>
+            Cash Position visualizes accounts and transaction listing along with
+            various form inputs to modify account details
+          </p>
+          <ul>
+            <li>
+              Built an UI using ReactJS for visualizing accountsand transactions
+              involved in banking.
+            </li>
+
+            <br></br>
+            <li>
+              <h5 style={{ fontWeight: "600" }}>Tech stack </h5>
+              ReactJS, Antd Design, Styled-Components, Redux Toolkit, React
+              Flow, Keycloak, React Query{" "}
+            </li>
+          </ul>
+          <br></br>
         </Event>
         <Event
           interval={"2014 - 2018"}
           title={"Bachelor of Technology in Computer Science"}
           subtitle={"Kerala University"}
         >
-          A fried Jamaica Red Ale trades baseball cards with a coors light.
-          Furthermore, a Busch returns home, and the Jamaica Red Ale steals
-          women from the radioactive Guiness. The slow tornado brew wastedly
-          assimilates a Guiness around an Octoberfest. Now and then, a miserly
-          Wolverine Beer caricatures a crazy Stella Artois. A change near a Sam
-          Adams gives lectures on morality to a satellite brewery defined by
-          some bottle.
+          CGPA:8.39/10
         </Event>
       </Timeline>
     </TimelineWrapper>

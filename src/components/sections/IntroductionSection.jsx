@@ -12,18 +12,18 @@ function IntroductionSection() {
           quality software.
         </h1>
         <h3>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or random words which don't look even slightly believable. If
-          you are going to use a passage of Lorem Ipsum, you need to be sure
-          there isn't anything embarrassing hidden in the middle of text. have
-          suffered alteration in some form, by injected humour, or random words
-          which don't look even slightly believable. If you are going to use a
-          passage of Lorem Ipsum.
+          As a skilled React JS Developer with 2.5+ years of experience, I am
+          passionate about crafting seamless user experiences and developing
+          high-quality, scalable web applications. With a strong understanding
+          of front-end development principles and expertise in React, I have a
+          proven track record of delivering cutting-edge solutions that exceed
+          client expectations. My ability to collaborate with cross-functional
+          teams and adapt to rapidly evolving technologies makes me a valuable
+          asset to any project.
         </h3>
         <div className="availability-group">
           <div className="status-indicator" />
-          <span>I'm currently not available</span>
+          <span>I'm currently available</span>
         </div>
       </div>
     </StyledIntro>
@@ -85,7 +85,7 @@ const StyledIntro = styled.div`
     gap: 2rem;
 
     span {
-      color: #ff8562;
+      color: #18a558;
       font-weight: 400;
       font-size: 1.2rem;
     }
@@ -94,8 +94,8 @@ const StyledIntro = styled.div`
       width: 1rem;
       height: 1rem;
       border-radius: 4rem;
-      background-color: #ff8562;
-      background-image: linear-gradient(135deg, #ffb59f, #ff8562);
+      background-color: #18a558;
+      background-image: linear-gradient(135deg, #18a558, #18a558);
       will-change: opacity;
       animation: blinker 1.5s ease-in-out infinite;
       @keyframes blinker {

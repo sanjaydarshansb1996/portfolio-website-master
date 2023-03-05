@@ -26,6 +26,7 @@ export { default as ExpressJSLogo } from "./svgs/skills-icon/ExpressJSLogo";
 export { default as MongoDBLogo } from "./svgs/skills-icon/MongoDBLogo";
 export { default as PythonLogo } from "./svgs/skills-icon/PythonLogo";
 export { default as VsCodeLogo } from "./svgs/skills-icon/VsCodeLogo";
+export { default as JavaLogo } from "./svgs/skills-icon/JavaLogo";
 
 // Images
 export { default as magicHat } from "./images/magic-hat.png";
